@@ -1,0 +1,23 @@
+.containerMat{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 5px;}
+
+.home i{margin: 0 5px;cursor: pointer;}
+
+@media (max-width:520px) {
+    .containerMat{flex-direction: column;height: 100%;}
+    .home{margin: 10px 5px;}
+    .containerMat span, .containerMat img{margin: 10px 5px;}
+    
+}
